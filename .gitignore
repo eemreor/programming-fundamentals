@@ -1,0 +1,7 @@
+# Compiled files
+*.exe
+*.o
+*.out
+
+# Editor settings
+.vscode/
