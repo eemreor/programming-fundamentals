@@ -10,6 +10,7 @@ Written in C-style C++ and compiled with GCC.
 | [Week 3](week-03-io-and-operators) | Data types, `printf` / `scanf`, arithmetic operators |
 | [Week 4](week-04-casting-and-conditions) | Constants, type casting, ASCII, `if` / `else` |
 | [Week 5](week-05-conditions-and-switch) | Nested conditions, `switch`, ternary operator, `math.h` |
+| [Week 6](week-06-loops) | `while`, `do...while`, `for`, sums, factorial, prime check |
 
 ## Running
 
