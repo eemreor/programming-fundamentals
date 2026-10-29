@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main (){
-	//Girilen sayının pozitif negatif ya da 0 oldupunu bulan programın kodlarını c dili ile yazınız
+	//Girilen sayÄ±nÄ±n pozitif negatif ya da 0 oldupunu bulan programÄ±n kodlarÄ±nÄ± c dili ile yazÄ±nÄ±z
 	int sayi; 
 	printf("Bir sayi giriniz:");
 	scanf("%d", &sayi);

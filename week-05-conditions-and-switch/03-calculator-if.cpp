@@ -9,7 +9,7 @@ int main(){
 	scanf("%lf",&sayi1);
 	
 	printf("Yapmak istediginiz islemi giriniz:(+ - * /)");
-	//%c önündeki boşluk enter karakterini temizler boşluk olmadığında program çalışmıyor. dikkatt
+	//%c Ã¶nÃ¼ndeki boÅŸluk enter karakterini temizler boÅŸluk olmadÄ±ÄŸÄ±nda program Ã§alÄ±ÅŸmÄ±yor. dikkatt
 	scanf(" %c",&islem);
 	
 	printf("ikinci sayiyi giriniz:");

@@ -5,7 +5,7 @@ int main (){
 	int vize,final;
 	float ortalama;
 	
-	printf("V�ze ve Final notlarini sirasiyla giriniz:(0 ile 100)");
+	printf("Vize ve Final notlarini sirasiyla giriniz:(0 ile 100)");
 	scanf("%d%d",&vize,&final);
 	
 	ortalama=vize*0.3 + final*0.70;

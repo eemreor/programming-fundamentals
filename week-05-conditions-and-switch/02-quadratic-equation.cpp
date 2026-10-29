@@ -8,7 +8,7 @@ int main (){
 	float reelKisim,sanalKisim;
 	printf("Sirasi ile a,b ve c katsayilarini giriniz:");
 	scanf("%f%f%f",&a,&b,&c);
-	//ikinci dereceden denklem kontrolü
+	//ikinci dereceden denklem kontrolÃ¼
 		if(a==0){
 			if(b!=0){
 				printf("Bu birinci dereceden bir denklemdir.");
@@ -19,11 +19,11 @@ int main (){
 			}
 			return 0;
 		}
-		//diskiriminant hesabı
+		//diskiriminant hesabÄ±
 	delta=(b*b)-(4*a*c);
 	printf("Delta:%.2f\n",delta);
 	if(delta>0){
-		//iki farklı gerçek kök 
+		//iki farklÄ± gerÃ§ek kÃ¶k 
 		x1=(-b + sqrt(delta)) / (2*a);
 		x2=(-b - sqrt(delta)) / (2*a);
 		printf("iki farkli gercek kok vardir\n");
@@ -31,16 +31,16 @@ int main (){
 		printf("x2=%.2f\n",x2);
 	}
 	else if(delta=0){
-		//çakışık tek kök var.
+		//Ã§akÄ±ÅŸÄ±k tek kÃ¶k var.
 		x1=(-b)/(2*a);
-		printf("Cakisik gerçek kok vardir.");
+		printf("Cakisik gerÃ§ek kok vardir.");
 		printf("x1=x2=%.2f\n",x1);
 	}
 	else{
-		//karmaşık kökler(delta<0
+		//karmaÅŸÄ±k kÃ¶kler(delta<0
 		reelKisim=(-b)/(2*a);
 		sanalKisim=sqrt(-delta)/(2*a);
-		//negatif a durumunda işaret düzeltmesi
+		//negatif a durumunda iÅŸaret dÃ¼zeltmesi
 		if(sanalKisim<0){
 			sanalKisim=-sanalKisim;
 		}

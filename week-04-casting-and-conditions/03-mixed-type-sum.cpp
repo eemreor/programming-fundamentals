@@ -5,7 +5,7 @@ int main (){
 	double num2=5.5;
 	double result;
 	
-	//otomatik (imlicit) dönüþüm: int--->double
+	//otomatik (imlicit) dÃ¶nÃ¼ÅŸÃ¼m: int--->double
 	
 	result=num1+num2;
 	printf("sonuc:%lf",result);

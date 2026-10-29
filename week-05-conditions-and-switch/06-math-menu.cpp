@@ -33,7 +33,7 @@ int main(){
 			printf("Sayi giriniz:");
 			scanf("%lf",&sayi);
 			if(sayi<0){
-				printf("negatif sayinin karek�k� tanimsizdir.");
+				printf("negatif sayinin karekoku tanimsizdir.");
 			}
 			else {
 				sonuc=sqrt(sayi);
@@ -53,13 +53,13 @@ int main(){
 		case 4:
 			printf("Sayi giriniz:");
 			scanf("%lf",&sayi);
-			sonuc=fabs(sayi); //fabs fonksiyonu say�n�n mutlak de�erini al�r
+			sonuc=fabs(sayi); //fabs fonksiyonu sayının mutlak değerini alır
 			printf("sonuc:%.2lf",sonuc);
 	
 		break;
 		
-		default: //iki nokta case ve defaultta dikkat et hata yapt�n
-		printf("gecersiz se�im girdiniz");
+		default: //iki nokta case ve defaultta dikkat et hata yaptın
+		printf("gecersiz secim girdiniz");
 		break;
 	}
 	

@@ -1,4 +1,4 @@
-// slayt son örnekler sf 22
+// slayt son Ã¶rnekler sf 22
 
 #include<stdio.h>
 int main (){
@@ -10,11 +10,11 @@ int main (){
 	
 	(sayi>=0) ? printf("sayi pozitiftir.\n") : printf("sayi negatiftir.\n");
 	
-	//tek çift kontrolu
+	//tek Ã§ift kontrolu
 	(sayi%2==0) ? printf("sayi cifttir.\n") : printf("sayi tektir.\n");
 	
-	//geçti kaldý
-	(sayi>50) ? printf("sayi geçti.\n") : printf("sayi kaldi.\n");
+	//geÃ§ti kaldÄ±
+	(sayi>50) ? printf("sayi geÃ§ti.\n") : printf("sayi kaldi.\n");
 	
 	return 0;
 }

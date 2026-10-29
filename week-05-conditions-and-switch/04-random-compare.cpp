@@ -1,11 +1,11 @@
 #include<stdio.h>
-#include<stdlib.h> //rand() : rastgele sayı üretir.                        örnek7yi kendin yap!!!!
+#include<stdlib.h> //rand() : rastgele sayÄ± Ã¼retir.                        Ã¶rnek7yi kendin yap!!!!
 #include<time.h>  //srand(time(NULL))
 
 int main (){
 	
 	int sayi1,sayi2;
-	srand(time(NULL)); //her seferinde fsrklı değerler getiriyor.
+	srand(time(NULL)); //her seferinde fsrklÄ± deÄŸerler getiriyor.
 	sayi1=rand()%100;
 	sayi2=rand()%100;
 	

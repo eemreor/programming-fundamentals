@@ -4,17 +4,17 @@ int main (){
 	
 	/*
 	
-	Bir öğrencinin dersten geçebilmesi için vize ve final notunun 50'e eşit veya daha fazla olması gerekmektedir.
-	Vize ve final notu en az 50'den az ise kalmaktadır.
-	Vize ve final ortalaması da vize notunun %30 ile final notunun %70i alınarak hesaplanmaktadır.
-	Öğrencinin geçip kaldığını ve ortalamasını ekrana yazdıran kodu yazınız.
+	Bir Ã¶ÄŸrencinin dersten geÃ§ebilmesi iÃ§in vize ve final notunun 50'e eÅŸit veya daha fazla olmasÄ± gerekmektedir.
+	Vize ve final notu en az 50'den az ise kalmaktadÄ±r.
+	Vize ve final ortalamasÄ± da vize notunun %30 ile final notunun %70i alÄ±narak hesaplanmaktadÄ±r.
+	Ã–ÄŸrencinin geÃ§ip kaldÄ±ÄŸÄ±nÄ± ve ortalamasÄ±nÄ± ekrana yazdÄ±ran kodu yazÄ±nÄ±z.
 	
 	*/
 	
 	int vize,final;
 	float ortalama;
 	
-	printf("Vİze ve Final notlarini sirasiyla giriniz:(0 ile 100)");
+	printf("VÄ°ze ve Final notlarini sirasiyla giriniz:(0 ile 100)");
 	scanf("%d%d",&vize,&final);
 	
 	ortalama=vize*0.3 + final*0.70;

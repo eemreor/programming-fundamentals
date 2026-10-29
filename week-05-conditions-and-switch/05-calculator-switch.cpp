@@ -1,4 +1,4 @@
-//SWITCH CASE kullanarak dört işlem (+,-,*, /) yapan hesap makinesinin kodlarını C programlama dili ile yazınız.
+//SWITCH CASE kullanarak dÃ¶rt iÅŸlem (+,-,*, /) yapan hesap makinesinin kodlarÄ±nÄ± C programlama dili ile yazÄ±nÄ±z.
 
 #include<stdio.h>
 int main(){
@@ -8,7 +8,7 @@ int main(){
 	scanf("%lf",&sayi1);
 	
 	printf("Yapmak istediginiz islemi giriniz:(+ - * /)");
-	//%c önündeki boşluk enter karakterini temizler boşluk olmadığında program çalışmıyor. dikkatt
+	//%c Ã¶nÃ¼ndeki boÅŸluk enter karakterini temizler boÅŸluk olmadÄ±ÄŸÄ±nda program Ã§alÄ±ÅŸmÄ±yor. dikkatt
 	scanf(" %c",&islem);
 	
 	printf("ikinci sayiyi giriniz:");
@@ -35,7 +35,7 @@ int main(){
 		}
 		break;
 		
-		default: //iki nokta case ve defaultta dikkat et hata yaptın
+		default: //iki nokta case ve defaultta dikkat et hata yaptÄ±n
 		printf("gecersiz bir islem op girdiniz");
 		break;
 	}

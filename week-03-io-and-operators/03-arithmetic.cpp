@@ -16,7 +16,7 @@ int main(){
 	
 	bolum=(float)sayi1/(float)sayi2;
 	
-	printf("Toplam=%d\n",toplam);
+	printf("Toplam=%d\n",toplam); 
 	printf("Fark=%d\n",fark);
 	printf("Carpim=%d\n",carpim);
 	printf("Bolum=%.2f\n",bolum);	

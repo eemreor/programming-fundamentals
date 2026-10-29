@@ -3,7 +3,7 @@
 int main(){
 	char ch='N';
 	int ascil_value;
-	//zorunlu dönüþüm:char--->int
+	//zorunlu dÃ¶nÃ¼ÅŸÃ¼m:char--->int
 	
 	ascil_value=(int)ch;
 	printf("A karakterinin ASCII degeri:%d\n",ascil_value);

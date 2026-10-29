@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main (){
-	int sayi; //Tam sayı türünde değişken
-	float ondalik; //Ondalık sayı türünde değişken
-	char karakter; //karakter türünde değişken
+	int sayi; //Tam sayÄ± tÃ¼rÃ¼nde deÄŸiÅŸken
+	float ondalik; //OndalÄ±k sayÄ± tÃ¼rÃ¼nde deÄŸiÅŸken
+	char karakter; //karakter tÃ¼rÃ¼nde deÄŸiÅŸken
 	double Sayi; 
 	
-	//Değişkenlere değer ataması
+	//DeÄŸiÅŸkenlere deÄŸer atamasÄ±
 	sayi=100;
 	ondalik=3.74658764;
 	karakter='A';
 	Sayi=374375487.155145;
-	//değişkenleri ekrana yazdırma
+	//deÄŸiÅŸkenleri ekrana yazdÄ±rma
 	printf("Tam sayi:%d\n",sayi);
 	printf("Ondalikli Sayi:%f\n",ondalik);
 	printf("Karakter:%c\n",karakter);

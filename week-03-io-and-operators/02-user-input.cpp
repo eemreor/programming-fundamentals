@@ -1,30 +1,30 @@
 #include<stdio.h>
 
 int main (){
-	int sayi; //Tam sayı türünde değişken
-	float ondalik; //Ondalık sayı türünde değişken
-	char karakter; //karakter türünde değişken
+	int sayi; //Tam sayÄ± tÃ¼rÃ¼nde deÄŸiÅŸken
+	float ondalik; //OndalÄ±k sayÄ± tÃ¼rÃ¼nde deÄŸiÅŸken
+	char karakter; //karakter tÃ¼rÃ¼nde deÄŸiÅŸken
 	double Sayi; 
 	
-	//Kullanıcıdan değer alma 
-	printf("Bir sayı giriniz:");
+	//KullanÄ±cÄ±dan deÄŸer alma 
+	printf("Bir sayÄ± giriniz:");
 	scanf("%d",&sayi);
-	printf("Ondalikli bir sayı:");
+	printf("Ondalikli bir sayÄ±:");
 	scanf("%f",&ondalik);
-	printf("Bir karakter giriniz:");          //*Çalışmadı araştır düzelt. bi şekilde çalıştı ama çözümüne daha bak net değil. 
+	printf("Bir karakter giriniz:");          //*Ã‡alÄ±ÅŸmadÄ± araÅŸtÄ±r dÃ¼zelt. bi ÅŸekilde Ã§alÄ±ÅŸtÄ± ama Ã§Ã¶zÃ¼mÃ¼ne daha bak net deÄŸil. 
 	scanf(" %c",&karakter);
 	printf("Bir double giriniz:");
 	scanf("%lf",&Sayi);
 	
-	//Değişkenlere değer ataması
+	//DeÄŸiÅŸkenlere deÄŸer atamasÄ±
 	//sayi=100;
 	//ondalik=3.74658764;
 	//karakter='A';
 	//Sayi=374375487.155145;
 	
-	//değişkenleri ekrana yazdırma
+	//deÄŸiÅŸkenleri ekrana yazdÄ±rma
 	printf("Tam sayi:%d\n",sayi);
-	printf("Ondalikli Sayi:%f\n",ondalik); //  %.2f yazarsan virgül sonrası sadece 2 basamak yazar
+	printf("Ondalikli Sayi:%f\n",ondalik); //  %.2f yazarsan virgÃ¼l sonrasÄ± sadece 2 basamak yazar
 	printf("Karakter:%c\n",karakter);
 	printf("Double sayi:%lf\n",Sayi);
 	

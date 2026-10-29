@@ -3,7 +3,7 @@
 int main(){
 	char ch;
 	int ascil_value=65;
-	//zorunlu dönüþüm:int--->char
+	//zorunlu dÃ¶nÃ¼ÅŸÃ¼m:int--->char
 	
 	ch=(char)ascil_value;
 	printf("65 sayisinin karakter karsiligi:%c\n",ch);
